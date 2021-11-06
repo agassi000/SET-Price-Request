@@ -1,4 +1,4 @@
-# SET-Price-Request
+# SET-Price-Requests
 
 Any suggestion on my code are all welcome, I am here to share and improve myself.
 
@@ -6,7 +6,7 @@ This is one of my first simple user-input program!!!
 
 # How Tos
 
-This python code will get request from [settrade.com](https://www.settrade.com/settrade/home)
+This python code will get requests from [settrade.com](https://www.settrade.com/settrade/home)
 using beautiful soup 4 html scrapper
 
 1. Run the program
