@@ -2,6 +2,19 @@
 
 This python code will get requests from SET (The Stock Exchange of Thailand) a real-time trading stock price in Thai Baht currency with an external link toward checking validity of the price using BS4 (Beautiful Soup 4) HTML scrapper.
 
+# Prerequisites
+
+In your cmd or terminal
+```
+pip install requests
+```
+```
+pip install bs4
+```
+```
+pip install beautifulsoup4
+```
+
 # How Tos
 
 This python code will get requests from [classic.settrade.com](https://classic.settrade.com/) (I have not yet updated to a new website version) (The Stock Exchange of Thailand)
@@ -10,7 +23,9 @@ using beautiful soup 4 html scrapper.
 1. Run the program
 2. Input your preferred SET (The Stock Exchange of Thailand) ticker symbols
 
-- i.e. Test case --> GULF, PTT, PTTEP, OR, BDMS, or any sercurities traded on the SET
+- i.e. Test cases --> GULF, PTT, PTTEP, OR, BDMS, or any sercurities traded on the SET
+
+
 
 3. The program will return a real-time trading stock price with an external link toward checking validity of the price. 
 
