@@ -25,7 +25,7 @@ using beautiful soup 4 html scrapper.
 
 - i.e. Test cases --> GULF, PTT, PTTEP, OR, BDMS, or any sercurities traded on the SET
 
-
+![alt text](https://user-images.githubusercontent.com/67840136/197448575-a4d71da0-5cf4-4328-990a-af8c3d1e2721.PNG)
 
 3. The program will return a real-time trading stock price with an external link toward checking validity of the price. 
 
