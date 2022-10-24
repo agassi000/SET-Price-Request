@@ -29,6 +29,8 @@ using beautiful soup 4 html scrapper.
 
 3. The program will return a real-time trading stock price with an external link toward checking validity of the price. 
 
+![test case result](https://user-images.githubusercontent.com/67840136/197449638-824dc533-8bbf-4c86-9028-cbeb0d9e707a.PNG)
+
 # Note
 This program cannot take a request when the website is in an on-going maintanance period (usually in the weekend of each month) since this code is relying on [classic.settrade.com](https://classic.settrade.com/settrade/home) data.
 
