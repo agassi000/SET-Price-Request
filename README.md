@@ -4,15 +4,18 @@ This python code will get requests from SET (The Stock Exchange of Thailand) a r
 
 # How Tos
 
-This python code will get requests from [settrade.com](https://www.settrade.com/settrade/home) (The Stock Exchange of Thailand)
+This python code will get requests from [classic.settrade.com](https://classic.settrade.com/) (I have not yet updated to a new website version) (The Stock Exchange of Thailand)
 using beautiful soup 4 html scrapper.
 
 1. Run the program
 2. Input your preferred SET (The Stock Exchange of Thailand) ticker symbols
+
+- i.e. Test case --> GULF, PTT, PTTEP, OR, BDMS, or any sercurities traded on the SET
+
 3. The program will return a real-time trading stock price with an external link toward checking validity of the price. 
 
 # Note
-This program cannot take a request when the website is in an on-going maintanance period (usually in the weekend of each month) since this code is relying on [settrade.com](https://www.settrade.com/settrade/home) data.
+This program cannot take a request when the website is in an on-going maintanance period (usually in the weekend of each month) since this code is relying on [classic.settrade.com](https://www.classic.settrade.com/settrade/home) data.
 
 Any suggestion on my code are all welcome, I am here to share and improve myself.
 <!---
