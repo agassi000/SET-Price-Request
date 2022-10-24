@@ -13,7 +13,7 @@ tiksym.pack(pady=30)
 
 def scrapedData():
     ticker = tiksym.get()
-    html_text = requests.get('https://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=' + ticker +'&ssoPageId=9&selectPage=1')
+    html_text = requests.get('https://classic.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=' + ticker +'&ssoPageId=9&selectPage=1')
 
     soup = BeautifulSoup(html_text.content, 'html.parser')
 
@@ -36,12 +36,12 @@ def scrapedData():
     else:
       value3 = ''
 
-    if value1 + value2 + value3 is '':
+    if value1 + value2 + value3 == '':
       Label(ws, text="There is no "+ ticker.upper() + " in the SET (The Stock Exchange of Thailand)", pady=5, bg='#ff10f0').pack()
     else:
-      web = 'https://www.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=' + ticker + '&ssoPageId=9&selectPage=1'
+      web = 'https://classic.settrade.com/C04_01_stock_quote_p1.jsp?txtSymbol=' + ticker + '&ssoPageId=9&selectPage=1'
       Label(ws, text=ticker.upper() + " is "+'%s baht' % (value1 + value2 + value3), pady=5, bg='#ff10f0').pack()
-      link = Label(ws, text="Check it by clicking here", fg="blue", cursor="hand2")
+      link = Label(ws, text="Check it? Click here!", fg="blue", cursor="hand2")
       link.pack()
       link.bind("<Button-1>", lambda e:
       callback(web))
